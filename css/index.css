@@ -1,0 +1,35 @@
+@import url('common.css');
+
+.spot{background: url('../img/img_spot.jpg')no-repeat;
+height:60vh;
+
+display:flex;
+justify-self: center;
+align-items: flex-end;}
+
+
+.spot article{background: white;
+padding:50px;
+width:900px;
+/* margin:0 auto; */
+/* overflow: hidden; */
+margin-bottom: -50px;
+box-shadow: 0px 10px 60px red;}
+.spot article h2{font-size:1.4rem;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+}
+.spot article:hover{
+    margin-bottom: 0;
+    box-shadow: 0px 0px 10px black;}
+.spot article figure{}
+.spot article figure img{width: 100%;margin:20px 0;}
+.spot article figure figcaption{text-align:center; }
+.spot article figure figcaption a{
+    background: chartreuse;
+    padding :8px 40px;
+    color:cornflowerblue;
+    display:inline-block
+}
+footer{text-align: center;
+margin: 100px 0;}
